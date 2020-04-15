@@ -1,0 +1,218 @@
+Comp 3005: Project (Winter 2020)
+Name: Adam Mohiuddin
+ID: 101003042
+
+
+
+Welcome to Prose By Any Other Name! You’re one stop shop for all your book needs.
+Main Menu.
+Please enter a single character:
+[B]rowse the bookstore as a Guest
+[L]ogin as existing User
+[R]egister as a new User
+[M]anage the bookstore
+> 
+------------------------------------------------------------------------
+<Browsing as a Guest>
+Please enter a single character:
+Search for a book by [T]itle or 
+Search for a book by [A]uthor
+Search for a book by [I]SBN
+Search for a book by [P]ublisher
+Search for a book by [G]enre
+[0] Return to Main Menu
+>
+------------------------------------------------------------------------
+<Searching for a book by Title>
+You are now Searching for a book by Title
+Please enter a complete title: *enter Title here*
+[0] Return to choose a search
+> (see Query #1 in queries.sql)
+------------------------------------------------------------------------
+<Searching for a book by Author>
+You are now Searching for a book by Author
+Please enter a complete author name: *enter Author here*
+[0] Return to choose a search
+> (see Query #2 in queries.sql)
+------------------------------------------------------------------------
+<Searching for a book by ISBN>
+You are now Searching for a book by ISBN
+Please enter a complete ISBN (13 digits): *enter ISBN here*
+[0] Return to choose a search
+> (see Query #3 in queries.sql)
+------------------------------------------------------------------------
+<Searching for a book by Publisher>
+You are now Searching for a book by Publisher
+Please enter a complete publisher's name: *enter Publisher here*
+[0] Return to choose a search
+> (see Query #4 in queries.sql)
+------------------------------------------------------------------------
+<Searching for a book by Genre>
+You are now Searching for a book by Genre
+Please enter a Genre: *enter Genre here*
+[0] Return to choose a search
+> (see Query #5 in queries.sql)
+------------------------------------------------------------------------
+<Results of Search for a book by Title>
+Matches for Title: The Hobbit
+  #  Title                        Author               Year     Qty     Price
+  1  The Hobbit                   J. R. R. Tolken      1937       6     $12.99
+  2  
+  3
+  4
+  5
+  6 See Next 5 Titles
+  7 See Previous 5 Titles
+  8 Return to the beginning of the list
+  0 Return to Main Menu
+> (see Query #1, #6, #9, #10 in queries.sql)
+------------------------------------------------------------------------  
+<Results of Search for a book by Author>
+Matches for Author: J. R. R. Tolken
+  #  Title                        Author               Year     Qty     Price
+  1  The Hobbit                   J. R. R. Tolken      1937       6     $12.99
+  2  The Fellowship of the Ring   J. R. R. Tolken      1954       3     $17.99
+  3  The Two Towers               J. R. R. Tolken      1954       3     $17.99
+  4  The Return of the King       J. R. R. Tolken      1955       3     $17.99
+  5
+  6 See Next 5 Titles
+  7 See Previous 5 Titles
+  8 Return to the beginning of the list
+  0 Return to Main Menu
+> (see Query #2, #6, #9, #10 in queries.sql)
+------------------------------------------------------------------------
+<Results of Search for a book by ISBN>
+Matches for ISBN: 5936548998523
+  #  Title                        Author               Year     Qty     Price
+  1  The Hobbit                   J. R. R. Tolken      1937       6     $12.99
+  2 
+  3
+  4
+  5
+  6 See Next 5 Titles
+  7 See Previous 5 Titles
+  8 Return to the beginning of the list
+  0 Return to Main Menu
+> (see Query #3, #6, #9, #10 in queries.sql)
+------------------------------------------------------------------------
+<Results of Search for a book by Publisher>
+Matches for Publisher: Allen & Unwin
+  #  Title                        Author(s)            Year     Qty     Price
+  1  The Hobbit                   J. R. R. Tolken      1937       6     $12.99
+  2  The Fellowship of the Ring   J. R. R. Tolken      1954       3     $17.99
+  3  The Two Towers               J. R. R. Tolken      1954       3     $17.99
+  4  The Return of the King       J. R. R. Tolken      1955       3     $17.99
+  5
+  6 See Next 5 Titles
+  7 See Previous 5 Titles
+  8 Return to the beginning of the list
+  0 Return to Main Menu
+> (see Query #4, #6, #9, #10 in queries.sql)
+------------------------------------------------------------------------
+<Results of Search for a book by Genre>
+Matches for Genre: Fantasy
+  #  Title                        Author(s)            Year     Qty     Price
+  1  The Hobbit                   J. R. R. Tolken      1937       6     $12.99
+  2  The Fellowship of the Ring   J. R. R. Tolken      1954       3     $17.99
+  3  The Two Towers               J. R. R. Tolken      1954       3     $17.99
+  4  The Return of the King       J. R. R. Tolken      1955       3     $17.99
+  5  Guards! Guards!              Terry Pratchett      1989       5     $15.99
+  6 See Next 5 Titles
+  7 See Previous 5 Titles
+  8 Return to the beginning of the list
+  0 Return to Main Menu
+> (see Query #5, #6, #9, #10 in queries.sql)
+------------------------------------------------------------------------
+<full details of book after entering 1, here the user is logged in>
+<show Add to basket option>
+
+___________________________________________________________________________
+
+The Hobbit or There and Back Again
+___________________________________________________________________________
+
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, 
+filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole 
+with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
+
+Written for J.R.R. Tolkien’s own children, The Hobbit met with instant critical acclaim. 
+Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the 
+wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures 
+of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent. 
+
+This book is 310 pages long and was published by Allen & Unwin in 1937.
+
+Author(s):  J. R. R. Tolken
+Language:   Eng
+Format:     Paperback
+Genre(s):   Fantasy
+
+Quantity:   6
+Price:      $12.99
+
+[A]dd to basket
+[0] Return to Main Menu
+> (see Query #6, #7, #8, #9, #10 in queries.sql)
+------------------------------------------------------------------------
+<full details of book after entering 1, here the user is logged in>
+<show [L]ogin option>
+
+___________________________________________________________________________
+
+The Hobbit or There and Back Again
+___________________________________________________________________________
+
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, 
+filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole 
+with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
+
+Written for J.R.R. Tolkien’s own children, The Hobbit met with instant critical acclaim. 
+Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the 
+wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures 
+of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent. 
+
+This book is 310 pages long and was ublished by Allen & Unwin in 1937.
+
+Author:     J. R. R. Tolken
+Language:   English
+Format:     Paperback
+Genre(s):   Fantasy
+
+Quantity:   6
+Price:      $12.99
+
+[L]ogin to add this book to your basket
+[0] Return to Main Menu
+> (see Query #6, #7, #8, #9, #10 in queries.sql)
+------------------------------------------------------------------------
+<Adding to basket>
+Please enter the quantity of the book
+Quantity: *enter quantity here*
+Enter [0] to cancel adding to basket
+> (see Query #13 in queries.sql and DML #7 and #8 in DML.sql)
+------------------------------------------------------------------------
+<Viewing the basket>
+Title          Qty
+The Hobbit       2
+
+
+
+
+1 See Next 5 Titles
+2 See Previous 5 Titles
+3 Return to the beginning of the list
+0 Return to Main Menu
+> (see Query #13 in queries.sql)
+------------------------------------------------------------------------
+<Logging out>
+Please choose one of the following:
+[E]nter new billing and shipping addresses
+[U]se existing billing and shipping addresses
+> (see DML #9 in DML.sql)
+------------------------------------------------------------------------
+<Enter billing and shipping addresses>
+Please enter the following information
+Billing Address: *enter billing address here*
+Shipping Address:  *enter shipping address here here*
+Enter [0] to cancel
+> (see DML #9 in DML.sql)
