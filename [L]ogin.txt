@@ -1,0 +1,41 @@
+Comp 3005: Project (Winter 2020)
+Name: Adam Mohiuddin
+ID: 101003042
+
+
+
+Welcome to Prose By Any Other Name! You’re one stop shop for all your book needs.
+Main Menu.
+Please enter a single character:
+[B]rowse the bookstore as a Guest
+[L]ogin as existing User
+[R]egister as a new User
+[M]anage the bookstore
+> 
+------------------------------------------------------------------------
+<Logging in>
+Please enter the following information to log in to your account
+Email Address: *enter email here*
+Password: *enter password here*
+Enter [0] to cancel Login
+> (see Query #11 in queries.sql)
+------------------------------------------------------------------------
+<Successfully logged in>
+Welcome back *display first_name* *display last_name*
+Please enter a single character:
+[V]iew your basket
+[C]heckout
+[L]ook at tracking information
+Search for a book by [T]itle or 
+Search for a book by [A]uthor
+Search for a book by [I]SBN
+Search for a book by [P]ublisher
+Search for a book by [G]enre
+> (see Query #12 in queries.sql)
+------------------------------------------------------------------------
+<Failed to login>
+Account not found. Please re-enter your information.
+Email Address:
+Password:
+Enter [0] to cancel Login
+> (see Query #11 in queries.sql)
