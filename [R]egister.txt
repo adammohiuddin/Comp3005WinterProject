@@ -1,0 +1,41 @@
+Comp 3005: Project (Winter 2020)
+Name: Adam Mohiuddin
+ID: 101003042
+
+
+
+Welcome to Prose By Any Other Name! You’re one stop shop for all your book needs.
+Main Menu.
+Please enter a single character:
+[B]rowse the bookstore as a Guest
+[L]ogin as existing User
+[R]egister as a new User
+[M]anage the bookstore
+> 
+------------------------------------------------------------------------
+<Register as a new Customer>
+Please enter the following information to create a new account
+Email Address: *enter email here*
+Password: *enter password here*
+Enter [0] to cancel registration
+> (see Query #11 in queries.sql)
+------------------------------------------------------------------------
+<Successfully registered>
+You are now registered.  Please complete your profile to purchase books.
+First Name: *enter first name here*
+Last Name: *enter last name here*
+Address: *enter address here*
+Billing Address: *enter billing address here*
+Shipping Address: *enter shipping address here*
+Credit Card Number: *enter credit card number here*
+Name on Credit Card: *enter name on credit card here*
+Expiry: *enter expiry here*
+Enter [0] for First Name to Return to Main Menu
+> (see DML #1 in DML.sql)
+------------------------------------------------------------------------
+<Failed to register>
+Email address is already in use.  Please enter a different email address.
+Email Address: *enter email here*
+Password: *enter password here*
+Enter [0] to cancel registration
+> (see Query #11 in queries.sql)
