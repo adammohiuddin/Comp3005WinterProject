@@ -1,0 +1,46 @@
+Comp 3005: Project (Winter 2020)
+Name: Adam Mohiuddin
+ID: 101003042
+
+
+
+Welcome to Prose By Any Other Name! You’re one stop shop for all your book needs.
+Main Menu.
+Please enter a single character:
+[B]rowse the bookstore as a Guest
+[L]ogin as existing User
+[R]egister as a new User
+[M]anage the bookstore
+> 
+------------------------------------------------------------------------
+<Manage Black Pearl Books>
+Managing Prose By Any Other Name:
+[PA] Publisher Add
+[PD] Publisher Delete
+[BA] Book Add
+[BD] Book Delete
+[OD] Orders by Date Range
+[OB] Orders by Book
+[OP] Orders by Publisher
+[SD] Sales by Date Range 
+[SB] Sales by Book
+[SG] Sales by Genre
+[SP] Sales by Publisher
+[SA] Sales by Author
+[SE] Sales vs Expenditures by Date Range
+[00] Return to the Main Menu
+> (see queries #17, #18, and #19 in queries.sql and functions #2 and #3 in functions.sql)
+------------------------------------------------------------------------
+<Adding a new entry into book>
+Adding a new book into Prose By Any Other Name
+ISBN: *enter ISBN here*
+title: *enter title here*
+subtitle: *enter subtitle here*
+page_count: *enter page_count here*
+publisher_name: *enter publisher_name here*
+published_year: *enter published_year here*
+book_synopsis: *enter book_synopsis here*
+language: *enter language here*
+format: *enter format here*
+Enter [0] to cancel
+> (see DML #2 in DML.sql)
